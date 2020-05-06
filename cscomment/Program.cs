@@ -24,10 +24,15 @@ namespace cscomment
                 {
                     Console.WriteLine(x * y);
                 }
+                else
+                {
+                    Console.WriteLine("이런..y값이 작아서 결과를 못 내보냅니다.");
+                }
             }
             else
             {
-                Console.WriteLine();
+                Console.WriteLine("이런..x값이 작아서 결과를 못 내보냅니다.");
+            Console.WriteLine();
             }
 
         }
